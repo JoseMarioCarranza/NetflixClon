@@ -1,0 +1,345 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(17, 17, 17);
+}
+
+.parte_suferior{
+    padding-bottom: 1.48vh;
+    overflow: hidden;
+}
+
+.parte_suferior .trailer_pelicula {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.parte_suferior .menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+.parte_suferior .menu img{
+    margin-top: 1%;
+    height: 2.23vh;
+}
+
+.parte_suferior .menu .botones{
+    margin-top: 1.5vh;
+    margin-left: 2.5vw;
+}
+
+.parte_suferior .menu .botones .boton{
+    margin-right: 0.83vw;
+    color: aliceblue;
+}
+
+.parte_suferior .menu .iconos{
+    margin-top: 1.5vh;
+    margin-left: auto;
+}
+
+.parte_suferior .menu .iconos .icono{
+    margin-left: 1.25vw;
+}
+
+.parte_suferior .pelicula_pricipal{
+    margin-bottom: 7.40vh;
+}
+
+.parte_suferior .pelicula_pricipal .inf_pelicula{
+    margin-top: 17.5vh;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: aliceblue;
+    width: 35vw;
+    font-size: 1.85vh;
+}
+
+.parte_suferior .pelicula_pricipal .inf_pelicula img{
+    width: 26vw;
+}
+
+.parte_suferior .pelicula_pricipal .botones{
+    margin-left: 5vw;
+    margin-top: 1.4vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.parte_suferior .pelicula_pricipal .botones button{
+    width: 12.5vw;
+    height: 5.18vh;
+    font-size: 1.4vw;
+    border-radius: .125vw;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.parte_suferior .pelicula_pricipal .botones button img{
+    width: 1.25vw;
+    margin-right: .41vw;
+}
+
+.parte_suferior .pelicula_pricipal .botones .reproducir{
+    background-color: aliceblue;
+}
+
+.parte_suferior .pelicula_pricipal .botones .mas_informacion{
+    margin-left: .83vw;
+    color: aliceblue;
+    background-color: grey;
+}
+
+.lista_peliculas{
+    margin-top: 5.92vh;
+    margin-left: 5vw;
+}
+
+.peliculas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.titulo_lista{
+    color: aliceblue;
+    font-size: 2.58vh;
+}
+
+.pelicula{
+    margin-right: .42vw;
+}
+
+.pelicula img{
+    margin-top: 1.48vh;
+    width: 15vw;
+    border-radius: 0.125vw;
+}
+
+.barra_porcentaje_visualizacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: .2vh;
+    margin-left: 1.77vw;
+    margin-right: 1.77vw;
+}
+
+.parte_suferior .lista_peliculas .peliculas .pelicula hr{
+    width: 5.73vw;
+    height: .44vh;
+    border: none;
+    background-color: rgb(85, 85, 85);
+}
+
+.parte_suferior .lista_peliculas .peliculas .pelicula .porncentaje_visualizacion{
+    background-color: red;
+}
+
+footer{
+    margin-top: 17.78vh;
+    margin-bottom: 1.48vh;
+    justify-content: center;
+}
+
+footer .redes_sociales{
+    margin-left: 30vw;
+}
+
+footer .redes_sociales .red_social img{
+    width: 1.25vw;
+    margin-left: .83vw;
+    margin-right: .83vw;
+}
+
+footer .links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer .links .columna_links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 3.33vw;
+}
+
+footer .links .columna_links .link{
+    margin-top: 1.48vh;
+    font-size: 1.12vh;
+    color: rgb(89, 89, 89);
+}
+
+footer .boton_codigo_servicio button{
+    margin-left: 30vw;
+    margin-top: 1.48vh;
+    color: rgb(89, 89, 89);
+    text-decoration:none;
+    font-size: 1.12vh;
+    background-color: transparent;
+    border-width: .0834vw;
+    border-style: solid;
+    border-color: rgb(89, 89, 89);
+    padding-top: .74vh;
+    padding-bottom: .74vh;
+    padding-left: .42vw;
+    padding-right: .42vw;
+}
+
+.copyright{
+    margin-left: 30vw;
+    margin-top: 1.48vh;
+    font-size: 1.12vh;
+    color: rgb(89, 89, 89);
+}
+
+@media only screen 
+    and (min-device-width: 1024px){
+    .parte_suferior .menu .botones{
+        font-size: 1.1vw;
+    }
+}
+
+@media only screen 
+    and (max-device-width: 1024px) {
+
+        footer .redes_sociales{
+            margin-left: 21vw;
+        }
+
+        footer .boton_codigo_servicio button{
+            margin-left: 21vw;
+        }
+        
+        .copyright{
+            margin-left: 21vw;
+        }
+}
+
+@media only screen 
+    and (max-device-width: 768px) {
+        .parte_suferior .menu{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .parte_suferior .menu .logo_netflix{
+            margin-top: 1.5vh;
+        }
+
+        .parte_suferior .menu .botones{
+            order: 1;
+        }
+
+        footer .redes_sociales .red_social img{
+            width: 2.5vw;
+        }
+
+        footer .redes_sociales{
+            margin-left: 13vw;
+        }
+
+        footer .boton_codigo_servicio button{
+            margin-left: 13vw;
+        }
+        
+        .copyright{
+            margin-left: 13vw;
+        }
+}
+
+@media only screen 
+    and (max-device-width: 425px) {
+        .parte_suferior .pelicula_pricipal .inf_pelicula{
+            align-items: center;
+            justify-content: center;
+            width: 80vw;
+        }
+
+        .parte_suferior .pelicula_pricipal .inf_pelicula img{
+            width: 80vw;
+        }
+
+        .parte_suferior .pelicula_pricipal .botones button{
+            width: 40vw;
+            font-size: 4vw;
+            border-radius: 1vw;
+        }
+
+        .parte_suferior .pelicula_pricipal .botones button img{
+            width: 4vw;
+        }
+
+        .parte_suferior .pelicula_pricipal .botones .mas_informacion{
+            margin-left: 3vw;
+        }
+
+        .lista_peliculas .peliculas .pelicula img{
+            width: 30vw;
+        }
+
+        .barra_porcentaje_visualizacion{
+            margin-top: .4vh;
+            margin-left: 3.54vw;
+            margin-right: 3.54vw;
+        }
+        
+        .parte_suferior .lista_peliculas .peliculas .pelicula hr{
+            width: 11.46vw;
+        }
+
+        footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        footer .redes_sociales .red_social img{
+            width: 5vw;
+            margin-right: 2vw;
+        }
+
+        footer .links{
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        footer .redes_sociales{
+            margin-left: 0;
+        }
+
+        footer .boton_codigo_servicio button{
+            margin-left: 0;
+        }
+        
+        .copyright{
+            margin-left: 0;
+        }
+}
