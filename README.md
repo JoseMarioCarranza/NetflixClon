@@ -52,13 +52,9 @@ Check out the live version of the project here: [Netflix Clone](https://netflixc
    - Link your repository to Render.
    - Use the configurations above to deploy your project.
 
-## Screenshots
-
-Add relevant screenshots here to showcase your project.
-
 ## Credits
 
-- **Developer**: Your Name
+- **Developer**: José Mario Rivera Carranza
 - **Inspiration**: Netflix Homepage
 - **Technologies Used**: HTML, CSS
 
