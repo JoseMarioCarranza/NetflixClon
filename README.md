@@ -1,7 +1,3 @@
-Here is the updated README with the live link included:
-
----
-
 # Netflix Clone Website
 
 This project is a simple static website that replicates the Netflix homepage design. It was built using HTML and CSS to demonstrate web development skills and attention to design details.
@@ -69,7 +65,3 @@ Add relevant screenshots here to showcase your project.
 ## License
 
 This project is for educational purposes only and is not affiliated with or endorsed by Netflix. All trademarks and logos belong to their respective owners.
-
----
-
-Let me know if you need additional changes!
