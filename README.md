@@ -35,7 +35,7 @@ Check out the live version of the project here: [Netflix Clone](https://netflixc
 
 1. **Clone the Repository**:
    ```
-   git clone https://github.com/your-username/your-repo.git
+   git clone git clone https://github.com/JoseMarioCarranza/NetflixClon
    ```
 2. **Open the Project**:
    - Navigate to the project folder and open `index.html` in your preferred browser.
